@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'sans-serif', cursive;
+}
+
+body{
+    background: url("../img/fondo.jpg");
+    background-attachment: fixed;
+}
+
+h1{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.contenedor {
+    background: rgba(58, 45, 55, 0.856);
+    margin: 20px 25%;
+    padding: 25px;
+    color: #ffff;
+    font-size: 18px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.datos{
+width: 100%;
+border: 3px solid rgba(39, 31, 37, 0.856);
+border-radius: 5px;
+padding:20px 0;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
+
+.datos label{
+    padding: 20px 35px;
+}
+
+button{
+    background: #d36e70;
+    color: #ffff;
+    font-size: 18px;
+    padding: 3px 20px;
+    border-radius: 5px;
+}
+
+.factura{
+    width: 60%;
+    margin-top: 20px;
+    border: 3px solid rgb(39, 31, 37, 0.856);
+    border-radius: 5px;
+    padding:20px 0;
+    text-align: center;
+}
+
+.compuFactura{
+    width: 20%;
+}
+
+h3{
+    color: #eb636b
+}
+
+

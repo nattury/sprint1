@@ -1,13 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sprint 1</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/compu.png" type="image/x-icon">
 </head>
+
 <body>
-    <h1>Sprint 1</h1>
-    
+    <h1>Almacén de computadores</h1>
+
+    <main class="contenedor">
+        <div class="datos">
+            <label class="pregunta">Cantidad de computadores comprados</label>
+            <input type="text" id="cantidadCompus"><br>
+            <button onclick=verificarDato()>Calcular</button>
+        </div>
+        <div class="factura">
+            <h2>Orden de compra</h2>
+            <img class="compuFactura" src="img/compu.png" alt="Compu factura"><br>
+            <label>Valor de compra</label><br>
+            <input type="text" id="valorCompra"><br>
+            <label>Valor de descuento</label><br>
+            <input type="text" id="valorDescuento"><br>
+            <label>Total</label><br>
+            <input type="text" id="totalPagar"><br>
+            <h3 id="descuentoFinal"></h3>
+        </div>
+    </main>
+    <script src="js/script.js"></script>
 </body>
+
 </html>
