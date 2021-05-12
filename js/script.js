@@ -49,18 +49,15 @@ const orden = () => {
                 document.getElementById("totalPagar").value = total;
                 document.getElementById("descuentoFinal").innerHTML = "Su descuento fue del 35%";
             } else {
-                descuento == 0;
-                total = compra - descuento;
                 document.getElementById("valorCompra").value = compra;
-                document.getElementById("valorDescuento").value = descuento;
-                document.getElementById("totalPagar").value = total;
+                document.getElementById("valorDescuento").value = 0;
+                document.getElementById("totalPagar").value = compra;
                 document.getElementById("descuentoFinal").innerHTML = "Lo sentimos, su compra no tiene descuento";
             }
         }
     }
 }
 
-localStorage.clear();
 
 // const orden = () => {
 //     const compra = cantidad * 820000;
