@@ -29,9 +29,9 @@ h1{
 
 .datos{
 width: 100%;
-border: 3px solid rgba(39, 31, 37, 0.856);
+border: 3px solid rgba(39, 31, 37, 0.888);
 border-radius: 5px;
-padding-bottom: 10px;
+padding-bottom: 11px;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -55,12 +55,12 @@ button{
     margin-top: 20px;
     border: 3px solid rgb(39, 31, 37, 0.888);
     border-radius: 5px;
-    padding: 10px 0;
+    padding: 11px 0;
     text-align: center;
 }
 
 .compuFactura{
-    width: 18%;
+    width: 17%;
 }
 
 h3{
